@@ -79,7 +79,7 @@ if has("gui_running")
             \set guioptions+=r <Bar>
             \set guioptions+=L <Bar>
         \endif<CR>
-	
+
 else
 	let g:isGUI=0
 endif
