@@ -1,14 +1,5 @@
 # vim通用配置与插件配置
-
-```bat
-@echo off
-for /f "tokens=*" %%f in (common) do (
-    echo %%f
-)
-
-echo qwe>>../demo.txt
-del /f /q /s common
-```
+---
 
 ```vimrc
 "--------------------------------------------------------------------

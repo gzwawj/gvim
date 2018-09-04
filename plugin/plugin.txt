@@ -1,13 +1,10 @@
-filetype off
-set nocompatible
-set rtp+= ~.vim/bundle/Vundle.vim
-call vundle#begin('~.vim/bundle/')
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'altercation/vim-colors-solarized'   "主题
+"主题
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'tomasr/molokai'
-Plugin 'scrooloose/nerdtree'    "文件树
-Plugin 'Xuyuanp/nerdtree-git-plugin'    "文件树git状态
+"文件树
+Plugin 'scrooloose/nerdtree'
 Plugin 'fholgado/minibufexpl.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'iamcco/markdown-preview.vim'
