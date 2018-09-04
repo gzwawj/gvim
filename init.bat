@@ -4,8 +4,8 @@
 del /f /q vimrc\_vimrc
 echo filetype off >>vimrc\_vimrc
 echo set nocompatible >>vimrc\_vimrc
-echo set rtp+=vimfiles/bundle/Vundle.vim >>vimrc\_vimrc
-echo call vundle#begin('vimfiles/bundle/')>>vimrc\_vimrc
+echo set rtp+=%cd%\vimfiles\bundle\Vundle.vim >>vimrc\_vimrc
+echo call vundle#begin('%cd%\vimfiles\bundle\')>>vimrc\_vimrc
 :: 引入插件文件
 type plugin\plugin.txt>>vimrc\_vimrc
 
@@ -25,4 +25,4 @@ XCOPY vim-config vimfiles\bundle\vim-config\ /S /H /Y /Q
 pause>nul
 
 :: 删除vim-config目录
-::del
+rd /s /Q vim-config

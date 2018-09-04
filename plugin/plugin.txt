@@ -1,8 +1,8 @@
 
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'gzwawj/vim-config'
 "主题
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'tomasr/molokai'
 "文件树
 Plugin 'scrooloose/nerdtree'
 Plugin 'fholgado/minibufexpl.vim'
@@ -13,10 +13,7 @@ Plugin 'isRuslan/vim-es6' "es6
 Plugin 'vimchina/vimcdoc'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-fugitive' "git集成
-Plugin 'shawncplus/php.vim' "php
-Plugin 'AD7six/vim-activity-log'
 Plugin 'vim-scripts/TagHighlight'
-Plugin 'szw/vim-tags'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
